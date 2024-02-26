@@ -6,8 +6,11 @@ from pygame import *
 from time import *
 from PIL import Image
 from random import *
+import tensorflow as tf
 import sys
 
+a = tf.constant([[4, 4], [3, 3]])
+print(a)
 
 def menu_sleep():
     # Sleep for 3.5 seconds during the menu presentation
